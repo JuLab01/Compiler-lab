@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "4U0_2cRYSiercYG0dKt9s",
+      "type": "text",
+      "x": 300,
+      "y": 276,
+      "width": 563.45947265625,
+      "height": 300,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1979779127,
+      "version": 279,
+      "versionNonce": 474472697,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1737974534331,
+      "link": null,
+      "locked": false,
+      "text": "how the node is goint to be created?\n- using new on heap\n\n- stack allocation\n\n- is there any deiiferene b/w heap allocated pointer\nand stack allocated pointer.\n\n    - we can get pointer by an object but not from node\n    - need to put and id thing in it\n\n",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 293,
+      "containerId": null,
+      "originalText": "how the node is goint to be created?\n- using new on heap\n\n- stack allocation\n\n- is there any deiiferene b/w heap allocated pointer\nand stack allocated pointer.\n\n    - we can get pointer by an object but not from node\n    - need to put and id thing in it\n\n",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

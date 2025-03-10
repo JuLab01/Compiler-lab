@@ -1,0 +1,111 @@
+Line 1:
+Token                    Type                     Column         
+-----------------------------------------------------------------
+#include                 PREPROCESSOR_DIRECTIVE   1              
+<                        NUMERIC OPERATOR         2              
+iostream                 IDENTIFIER               3              
+>                        NUMERIC OPERATOR         4              
+
+
+Line 2:
+Token                    Type                     Column         
+-----------------------------------------------------------------
+using                    KEYWORD                  1              
+namespace                KEYWORD                  2              
+std                      KEYWORD                  3              
+;                        CPP SPECIFIC OPERATOR    4              
+
+
+Line 3:
+
+
+Line 4:
+
+
+Line 5:
+Token                    Type                     Column         
+-----------------------------------------------------------------
+int                      KEYWORD                  1              
+f                        IDENTIFIER               2              
+(                        PARENTHESIS              3              
+int                      KEYWORD                  4              
+a                        IDENTIFIER               5              
+,                        CPP SPECIFIC OPERATOR    6              
+float                    KEYWORD                  7              
+b                        IDENTIFIER               8              
+=                        NUMERIC OPERATOR         9              
+0.2                      FLOATING POINT CONSTANT  10             
+)                        PARENTHESIS              11             
+{                        BRACE                    12             
+
+
+Line 6:
+Token                    Type                     Column         
+-----------------------------------------------------------------
+return                   KEYWORD                  1              
+a                        IDENTIFIER               2              
+*                        NUMERIC OPERATOR         3              
+b                        IDENTIFIER               4              
+;                        CPP SPECIFIC OPERATOR    5              
+
+
+Line 7:
+Token                    Type                     Column         
+-----------------------------------------------------------------
+int*                     POINTER KEYWORD          1              
+a                        IDENTIFIER               2              
+=                        NUMERIC OPERATOR         3              
+&                        UNKNOWN                  4              
+a                        IDENTIFIER               5              
+;                        CPP SPECIFIC OPERATOR    6              
+
+
+Line 8:
+Token                    Type                     Column         
+-----------------------------------------------------------------
+cout                     IDENTIFIER               1              
+<<                       CPP SPECIFIC OPERATOR    2              
+(                        PARENTHESIS              3              
+a*                       POINTER DE-REFERENCING   4              
+)                        PARENTHESIS              5              
+<<                       CPP SPECIFIC OPERATOR    6              
+endl                     IDENTIFIER               7              
+;                        CPP SPECIFIC OPERATOR    8              
+
+
+Line 9:
+Token                    Type                     Column         
+-----------------------------------------------------------------
+}                        BRACE                    1              
+
+
+Line 10:
+Token                    Type                     Column         
+-----------------------------------------------------------------
+int                      KEYWORD                  1              
+main                     IDENTIFIER               2              
+(                        PARENTHESIS              3              
+)                        PARENTHESIS              4              
+{                        BRACE                    5              
+
+
+Line 11:
+Token                    Type                     Column         
+-----------------------------------------------------------------
+cout                     IDENTIFIER               1              
+<<                       CPP SPECIFIC OPERATOR    2              
+f                        IDENTIFIER               3              
+(                        PARENTHESIS              4              
+1                        INTEGER CONSTANT         5              
+,                        CPP SPECIFIC OPERATOR    6              
+2                        INTEGER CONSTANT         7              
+)                        PARENTHESIS              8              
+;                        CPP SPECIFIC OPERATOR    9              
+
+
+Line 12:
+Token                    Type                     Column         
+-----------------------------------------------------------------
+}                        BRACE                    1              
+
+
