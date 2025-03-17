@@ -1,7 +1,7 @@
 %{
-#include <stdio.h>
-int yylex(void);
-void yyerror(char *);
+    #include <stdio.h>
+    int yylex(void);
+    void yyerror(char *);
 %}
 %token INTEGER
 %%

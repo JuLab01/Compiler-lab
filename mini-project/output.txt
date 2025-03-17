@@ -1,0 +1,18 @@
+Rule: integer_literal: INTEGER (10)
+Rule: integer_literal: INTEGER (5)
+Rule: arithmetic_expression: <arithmetic_expression> + <term>
+Rule: assignment_statement: x = <expression>
+Rule: factor: IDENTIFIER (x)
+Rule: print_statement: print(<expression>)
+Rule: integer_literal: INTEGER (1)
+Rule: integer_literal: INTEGER (2)
+Rule: element_list: <element_list> , <expression>
+Rule: integer_literal: INTEGER (3)
+Rule: element_list: <element_list> , <expression>
+Rule: list: [<element_list_opt>]
+Rule: factor: IDENTIFIER (i)
+Rule: print_statement: print(<expression>)
+Rule: for_loop: for i in <iterable>:
+    <statement_list>
+endfor
+Parsing successful!
